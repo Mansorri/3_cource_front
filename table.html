@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        td {
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        td.row-1 {
+            background-color: #118f8f;
+            color: #ffffff;
+        }
+
+        td.row-1:hover {
+            background-color: #f5f511;
+            color: #000000;
+        }
+
+        td.row-2 {
+            background-color: #f5f511;
+            color: #000000;
+        }
+
+        td.row-2:hover {
+            background-color: #118f8f;
+            color: #ffffff;
+        }
+
+        a.back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #118f8f;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-link">Повернутися на головну</a>
+
+<main class="container">
+    <table class="variant-table">
+        <tr>
+            <td colspan="2" rowspan="2" class="row-1">
+                Зінченко
+            </td>
+
+            <td class="row-1">
+                Аліна
+            </td>
+
+            <td rowspan="2" class="row-1">
+                Володимирівна
+            </td>
+
+            <td rowspan="2" class="row-1">
+                Варіант 11
+            </td>
+        </tr>
+
+        <tr>
+            <td class="row-2"></td>
+        </tr>
+
+        <tr>
+            <td class="row-1">
+                ІК-41
+            </td>
+
+            <td rowspan="2" class="row-1"></td>
+
+            <td rowspan="2" class="row-1"></td>
+
+            <td colspan="2" rowspan="2" class="row-1"></td>
+        </tr>
+
+        <tr>
+            <td class="row-2"></td>
+        </tr>
+    </table>
+</main>
+
+</body>
+</html>
