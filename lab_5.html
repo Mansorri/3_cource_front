@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Форма</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <a href="index.html" class="table-link">Повернутися на головну</a>
+
+    <main class="container">
+
+        <section class="task-section">
+
+            <h3>Форма перевірки даних</h3>
+
+            <form id="data-form" class="form">
+
+                <div class="form-row">
+                    <label for="pib">ПІБ:</label>
+                    <input type="text" id="pib" placeholder="Зінченко А.В.">
+                </div>
+
+                <div class="form-row">
+                    <label for="phone">Телефон:</label>
+                    <input type="text" id="phone" placeholder="(123)-456-78-90">
+                </div>
+
+                <div class="form-row">
+                    <label for="faculty">Факультет:</label>
+                    <input type="text" id="faculty" placeholder="ФІОТ">
+                </div>
+
+                <div class="form-row">
+                    <label for="birthday">Дата народження:</label>
+                    <input type="text" id="birthday" placeholder="20.04.2007">
+                </div>
+
+                <div class="form-row">
+                    <label for="address">Адреса:</label>
+                    <input type="text" id="address" placeholder="м. 123456">
+                </div>
+
+                <button type="submit">Перевірити</button>
+
+            </form>
+
+        </section>
+
+        <section class="task-section">
+
+            <h3>Таблиця 6×6</h3>
+
+            <label for="colorPicker">Оберіть колір:</label>
+            <input type="color" id="colorPicker" value="#ff0000">
+
+            <table id="task-table"></table>
+
+        </section>
+
+    </main>
+
+    <script src="lab_5.js"></script>
+
+</body>
+
+</html>

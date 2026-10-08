@@ -61,3 +61,4 @@ deleteButton.addEventListener('click', function () {
         image.style.display = 'none';
     }
 });
+

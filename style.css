@@ -200,3 +200,42 @@ td.row-2:hover {
 .flexRight {
     background-color: #9ed9e9;
 }
+
+
+
+.form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    margin-bottom: 5px;
+
+    background-color: #6969699d;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    font-size: 1.5rem;
+
+}
+
+
+
+#task-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#task-table td {
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid black;
+
+    text-align: center;
+    vertical-align: middle;
+
+    cursor: pointer;
+}
+
+#colorPicker {
+    margin: 10px;
+}
