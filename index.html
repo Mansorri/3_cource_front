@@ -14,9 +14,9 @@
     <a href="table.html" class="table-link">Перейти до таблиці</a>
     <a href="lab_3.html" class="table-link">Блочна верстка макету</a>
 
-    <h2>Зінченко Аліна Володимирівна</h2>
+    <h2 id="element2">Зінченко Аліна Володимирівна</h2>
 
-    <p>Місце народження:20.04.2007, Київ</p>
+    <p class="element3">Місце народження:20.04.2007, Київ</p>
 
     <p>Освіта: Броварський ліцей номер 2, Київський політехнічний інститут</p>
 
@@ -43,11 +43,26 @@
     <p>Буда — це тиха, зелена та історична частина. Тут на пагорбах височіє величний Будайський замок, Рибацький бастіон, що нагадує казковий палац, та старовинна церква Матьяша.</p>
     <p>Пешт — це серце бурхливого міського життя. Тут розташовані просторі проспекти (зокрема, знаменитий Андраші), розкішні ресторани, музеї та візитівка міста — Угорський парламент, який є однією з найбільших урядових будівель у світі.</p>
 
-    <p>
+   <div class="image-section">
+
         <a href="https://budapest.hu/en" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Parlement_van_Boedapest_gelegen_aan_de_Donau.jpg?utm_source=uk.wikivoyage.org&utm_campaign=index&utm_content=original" alt="Будапешт" width="600">
+            <img
+                id="budapest-image"
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Parlement_van_Boedapest_gelegen_aan_de_Donau.jpg?utm_source=uk.wikivoyage.org&utm_campaign=index&utm_content=original"
+                alt="Будапешт"
+                width="600">
         </a>
-    </p>
+
+        <div class="image-buttons">
+            <button id="add-image">Додати</button>
+            <button id="increase-image">Збільшити</button>
+            <button id="decrease-image">Зменшити</button>
+            <button id="delete-image">Видалити</button>
+        </div>
+
+        <div id="image-copies"></div>
+
+    </div>
 
     <main class="container">
     <table class="variant-table">
@@ -91,6 +106,6 @@
             </div>
         </section>
     </main>
-
+    <script src="script.js"></script>
 </body>
 </html>
