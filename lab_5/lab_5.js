@@ -80,7 +80,7 @@ if (taskTable && colorPicker) {
             const cell = row.insertCell();
             cell.textContent = number;
 
-            if (number === 1) {
+            if (number === 11) {
                 cell.addEventListener('mouseover', function () {
                     const randomColor =
                         '#' + Math.floor(Math.random() * 16777215)
